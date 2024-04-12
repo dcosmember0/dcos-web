@@ -1,0 +1,9 @@
+<article>
+    <a id="previous" href="|...|.html">&lArr;</a> <a id="next" href="|...|.html">&rArr;</a>
+</article>
+
+<p><b>Description:</b></p>
+    <p>Type: Illusion</p>
+    <p>Causes: Artifact connection</p>
+    <br>
+    <p>Anomaly ... is ... </p>

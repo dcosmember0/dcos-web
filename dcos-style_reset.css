@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+article, aside, figcaption, figure, footer, header, main, nav, section{
+    display: block;
+}
+
+address, article, aside, blockquote, body, cite, div, dl, dt, dd, em, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, html, img, li, main, nav, ol, p, section, span, ul {
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+nav ul {
+    list-style: none;
+    list-style-image: none;
+}
+ 
+nav a {
+    text-decoration: none;
+}

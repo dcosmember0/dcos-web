@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Entanglement;
+    src: url(Entanglement-rgpRB.ttf);
+}
+  
+@font-face {
+    font-family: Oasis;
+    src: url(Oasis-BW0JV.ttf);
+}
+
+@font-face {
+    font-family: Dystopian;
+    src: url(Sddystopiandemo-GO7xa.otf);
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: url(Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: TiltPrism;
+    src: url(TiltPrism-Regular-VariableFont_XROT,YROT.ttf);
+}
+
+@font-face {
+    font-family: WaveFont;
+    src: url(Wavefont-VariableFont_ROND,YELA,wght.ttf);
+}
+
+@font-face {
+    font-family: RubikGlitchPop;
+    src: url(RubikGlitchPop-Regular.ttf);
+}
+
+@font-face {
+    font-family: Foldit;
+    src: url(Foldit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: LineFont;
+    src: url(Linefont-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+    font-family: BigShouldersInlineText;
+    src: url(BigShouldersInlineText-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Aquire;
+    src: url(Aquire-BW0ox.otf);
+}
+  
+@font-face {
+    font-family: AquireB;
+    src: url(AquireBold-8Ma60.otf);
+}
+
+@font-face {
+    font-family: AquireL;
+    src: url(AquireLight-YzE0o.otf);
+}
+
+@font-face {
+    font-family: RustyAttack;
+    src: url(RustyAttackDemo-d9X8l.otf);
+}
+
+@font-face {
+    font-family: Rusted;
+    src: url(RustedPersonalUse-Rp1rv.ttf);
+}
+
+@font-face {
+    font-family: Sanctuary;
+    src: url(AnkhSanctuary-nROx4.ttf);
+}
+
+html{
+    padding: 1em;
+    background-color: rgb(231, 225, 236);
+    float: none;
+    flex-flow: wrap;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-family: Oasis, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 14em;
+    float: none;
+    align-content: center;
+    align-items: center;
+}
+
+footer{
+    padding-top: 5em;
+}
