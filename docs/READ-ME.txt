@@ -2,4 +2,4 @@ This website is all based off of a creation that i made about 2 years ago to tie
 
 If you are reading this, please know that I know this isn't what the rubric for the assignment asks for, but I thought that this would be enough to show that I know what we have gone over in web design. Some things in the css I learned on my own or from online sources, but most of it is from the class. Also this website isn't completely done yet, and probably will never be until i run out of storage space, but this is the jist of it all. Like i said before, If you have any questions, just ask me.
 
-Make sure you go to START.html and then Home/DCOS.html
+Make sure you go to START.html and then Home/index.html
