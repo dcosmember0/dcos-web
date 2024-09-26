@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: Entanglement;
+  src: url(Entanglement-rgpRB.ttf);
+}
+
+@font-face {
+  font-family: Oasis;
+  src: url(Oasis-BW0JV.ttf);
+}
+
+@font-face {
+  font-family: Dystopian;
+  src: url(Sddystopiandemo-GO7xa.otf);
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url(Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: TiltPrism;
+  src: url(TiltPrism-Regular-VariableFont_XROT,YROT.ttf);
+}
+
+@font-face {
+  font-family: WaveFont;
+  src: url(Wavefont-VariableFont_ROND,YELA,wght.ttf);
+}
+
+@font-face {
+  font-family: RubikGlitchPop;
+  src: url(RubikGlitchPop-Regular.ttf);
+}
+
+@font-face {
+  font-family: Foldit;
+  src: url(Foldit-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: LineFont;
+  src: url(Linefont-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+  font-family: BigShouldersInlineText;
+  src: url(BigShouldersInlineText-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Aquire;
+  src: url(Aquire-BW0ox.otf);
+}
+
+@font-face {
+  font-family: AquireB;
+  src: url(AquireBold-8Ma60.otf);
+}
+
+@font-face {
+  font-family: AquireL;
+  src: url(AquireLight-YzE0o.otf);
+}
+
+@font-face {
+  font-family: RustyAttack;
+  src: url(RustyAttackDemo-d9X8l.otf);
+}
+
+@font-face {
+  font-family: Rusted;
+  src: url(RustedPersonalUse-Rp1rv.ttf);
+}
+
+@font-face {
+  font-family: Sanctuary;
+  src: url(AnkhSanctuary-nROx4.ttf);
+}
+
+html{
+  padding: 5px;
+}
+
+html#main{
+  background-color: rgb(3, 19, 20);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(38, 59, 60);
+    color: black;
+  }
+
+  body#error > p{
+    font-family: TiltPrism, Entanglement, Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lavender;
+    color: black;
+    text-shadow: 25px;
+  }
+  
+  body article{
+    font-family: Dystopian, Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+    margin-top: 20px;
+    background-color: rgb(212, 197, 255);
+    padding: 25px;
+    word-spacing: 0.5em;
+  }
+
+  body > nav ul li{
+    width: 100%;
+    list-style-type: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(108, 108, 108);
+    padding: 5px;
+    
+  }
+  
+  header#main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(135, 158, 159);
+    padding: 5px;
+    font-family: Orbitron, Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  article {
+    width: 70%;
+    margin-top: 20px;
+    background-color: rgb(135, 158, 159);
+    padding: 25px;
+    margin-bottom: 2em;
+    padding: 1em;
+    
+  }
+
+  nav {
+    display: block;
+    font-family: Oasis, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(127, 174, 165);
+    padding: 1em;
+    float: left;
+  }
+
+  nav a{
+    display: block;
+  }
+
+  article#al > ul > li > ul > li{
+    list-style-type: circle;
+    color: slategrey;
+
+  }
+
+  article#normal{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+  }
+
+  article#info {
+    font-family: Arial, Helvetica, sans-serif;
+    color:slategrey;
+    background-color: black;
+  }
+
+  article#secret{
+    font-family: LineFont, WaveFont, Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+  }
+
+  article#secret p#audiowave{
+    font-family: LineFont, WaveFont, Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    padding: 0%;
+  }
+
+  article > p > b#main{
+    font-family: Entanglement, Arial, Helvetica, sans-serif;
+    letter-spacing: -0.3em;
+  }
+
+  button#error{
+    font-family: LineFont, Oasis, Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: blueviolet;
+    color: cadetblue;
+    box-shadow: 15px;
+    text-shadow: 5px;
+  }
+
+  p#a003{
+    font-family: Orbitron, Arial, Helvetica, sans-serif;
+    color: black;
+  }
+
+  p#bartext{
+    font-family: WaveFont, LineFont, Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    padding: 0px;
+  }
+
+  p#motto{
+    font-family: Aquire, Arial, Helvetica, sans-serif;
+  }
+
+  a#next{
+    letter-spacing: 0em;
+    align-content: end;
+    text-align: right;
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+
+  a#previous{
+    letter-spacing: 0em;
+    align-content: start;
+    text-align: left;
+    text-decoration: none;
+    text-decoration-line: none;
+  }
