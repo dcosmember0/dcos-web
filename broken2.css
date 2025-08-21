@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: Entanglement;
+  src: url(Entanglement-rgpRB.ttf);
+}
+
+@font-face {
+  font-family: Oasis;
+  src: url(Oasis-BW0JV.ttf);
+}
+
+@font-face {
+  font-family: Dystopian;
+  src: url(Sddystopiandemo-GO7xa.otf);
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url(Orbitron-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: LineFont;
+  src: url(Linefont-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+  font-family: Foldit;
+  src: url(Foldit-VariableFont_wght.ttf);
+}
+
+html#broken {
+    background-color: black;
+    font-family: Entanglement, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+  
+body#broken {
+    background-color: red;
+    font-family: Entanglement, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header#broken {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: darkred;
+    padding: 5px;
+    font-family: Entanglement, Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+nav#broken {
+    background-color: darkred;
+    text-align:left;
+    font-family: Entanglement, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+}
+
+article#broken {
+    font-family: Entanglement, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkred;
+}
+
+article#broken2 {
+    font-family: Entanglement, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkred;
+    text-align: center;
+    letter-spacing: -0.45em;
+    word-spacing: 0.000051em;
+    line-height: 0.43em;
+    word-wrap: break-word;
+}
+
+aside#broken {
+    font-family: Foldit, Entanglement, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: maroon;
+    color: black;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+}
+
+button#broken{
+    background-color: maroon;
+    box-shadow: none;
+    font-family: Orbitron, Arial, Helvetica, sans-serif;
+}
