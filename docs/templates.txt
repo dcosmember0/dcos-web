@@ -3,7 +3,7 @@
 </article>
 
 <p><b>Description:</b></p>
-    <p>Type: Illusion</p>
-    <p>Causes: Artifact connection</p>
+    <p>Type: </p>
+    <p>Causes: </p>
     <br>
     <p>Anomaly ... is ... </p>
