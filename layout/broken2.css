@@ -2,32 +2,32 @@
 
 @font-face {
   font-family: Entanglement;
-  src: url(layout/Entanglement-rgpRB.ttf);
+  src: url(Entanglement-rgpRB.ttf);
 }
 
 @font-face {
   font-family: Oasis;
-  src: url(layout/Oasis-BW0JV.ttf);
+  src: url(Oasis-BW0JV.ttf);
 }
 
 @font-face {
   font-family: Dystopian;
-  src: url(layout/Sddystopiandemo-GO7xa.otf);
+  src: url(Sddystopiandemo-GO7xa.otf);
 }
 
 @font-face {
   font-family: Orbitron;
-  src: url(layout/Orbitron-VariableFont_wght.ttf);
+  src: url(Orbitron-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: LineFont;
-  src: url(layout/Linefont-VariableFont_wdth,wght.ttf);
+  src: url(Linefont-VariableFont_wdth,wght.ttf);
 }
 
 @font-face {
   font-family: Foldit;
-  src: url(layout/Foldit-VariableFont_wght.ttf);
+  src: url(Foldit-VariableFont_wght.ttf);
 }
 
 html#broken {

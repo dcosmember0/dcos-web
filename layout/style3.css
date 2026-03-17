@@ -2,82 +2,82 @@
 
 @font-face {
   font-family: Entanglement;
-  src: url(layout/Entanglement-rgpRB.ttf);
+  src: url(Entanglement-rgpRB.ttf);
 }
 
 @font-face {
   font-family: Oasis;
-  src: url(layout/Oasis-BW0JV.ttf);
+  src: url(Oasis-BW0JV.ttf);
 }
 
 @font-face {
   font-family: Dystopian;
-  src: url(layout/Sddystopiandemo-GO7xa.otf);
+  src: url(Sddystopiandemo-GO7xa.otf);
 }
 
 @font-face {
   font-family: Orbitron;
-  src: url(layout/Orbitron-VariableFont_wght.ttf);
+  src: url(Orbitron-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: TiltPrism;
-  src: url(layout/TiltPrism-Regular-VariableFont_XROT\,YROT.ttf);
+  src: url(TiltPrism-Regular-VariableFont_XROT\,YROT.ttf);
 }
 
 @font-face {
   font-family: WaveFont;
-  src: url(layout/Wavefont-VariableFont_ROND,YELA,wght.ttf);
+  src: url(Wavefont-VariableFont_ROND,YELA,wght.ttf);
 }
 
 @font-face {
   font-family: RubikGlitchPop;
-  src: url(layout/RubikGlitchPop-Regular.ttf);
+  src: url(RubikGlitchPop-Regular.ttf);
 }
 
 @font-face {
   font-family: Foldit;
-  src: url(layout/Foldit-VariableFont_wght.ttf);
+  src: url(Foldit-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: LineFont;
-  src: url(layout/Linefont-VariableFont_wdth\,wght.ttf);
+  src: url(Linefont-VariableFont_wdth\,wght.ttf);
 }
 
 @font-face {
   font-family: BigShouldersInlineText;
-  src: url(layout/BigShouldersInlineText-VariableFont_wght.ttf);
+  src: url(BigShouldersInlineText-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: Aquire;
-  src: url(layout/Aquire-BW0ox.otf);
+  src: url(Aquire-BW0ox.otf);
 }
 
 @font-face {
   font-family: AquireB;
-  src: url(layout/AquireBold-8Ma60.otf);
+  src: url(AquireBold-8Ma60.otf);
 }
 
 @font-face {
   font-family: AquireL;
-  src: url(layout/AquireLight-YzE0o.otf);
+  src: url(AquireLight-YzE0o.otf);
 }
 
 @font-face {
   font-family: RustyAttack;
-  src: url(layout/RustyAttackDemo-d9X8l.otf);
+  src: url(RustyAttackDemo-d9X8l.otf);
 }
 
 @font-face {
   font-family: Rusted;
-  src: url(layout/RustedPersonalUse-Rp1rv.ttf);
+  src: url(RustedPersonalUse-Rp1rv.ttf);
 }
 
 @font-face {
   font-family: Sanctuary;
-  src: url(layout/AnkhSanctuary-nROx4.ttf);
+  src: url(AnkhSanctuary-nROx4.ttf);
 }
 
 html{
