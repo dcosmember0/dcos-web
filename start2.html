@@ -25,6 +25,45 @@
         <p>
             <a href="./archive/index.html">[The Archive]</a>
         </p>
+	<p>
+	    <div id="irc4fun-chatbox"></div>
+		<script>
+			(function (w, d) {
+			  var cfg = {
+			    base: 'https://irc4fun.net/app/kiwiirc',
+			    channel: '#IRC4Fun',
+			    nick: 'DCOS-WebGuest',
+			    showPassword: false,
+			    height: 620
+			  };
+
+			  var root = d.getElementById('irc4fun-chatbox');
+			  if (!root) return;
+
+			  root.style.maxWidth = "1100px";
+			  root.style.margin = "0 auto";
+			  root.style.border = "1px solid #d7e0ef";
+			  root.style.borderRadius = "12px";
+			  root.style.overflow = "hidden";
+			  root.style.boxShadow = "0 8px 24px rgba(10,30,60,.12)";
+
+			  var src = cfg.base.replace(/\/$/, "") +
+			    "/?show_password=" + (cfg.showPassword ? "yes" : "no") +
+			    "&nick=" + encodeURIComponent(cfg.nick) +
+			    "&channels=" + encodeURIComponent(cfg.channel);
+
+			  root.innerHTML = "";
+			  var frame = d.createElement("iframe");
+			  frame.src = src;
+		  	frame.width = "100%";
+			  frame.height = String(cfg.height);
+			  frame.setAttribute("frameborder", "0");
+			  frame.setAttribute("loading", "lazy");
+			  frame.setAttribute("allowfullscreen", "true");
+			  frame.style.display = "block";
+			  root.appendChild(frame);
+			})(window, document);
+			</script>
         <br>
 
     <footer>WIP. Make sure you have read the <a href="info.txt">Info</a> file. Questions? Just <a href=mailto:dcoszero0@gmail.com>email me!</a></footer>
